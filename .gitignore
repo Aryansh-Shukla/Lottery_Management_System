@@ -1,0 +1,13 @@
+# Ignore dependencies and build files
+.deps/
+.states/
+artifacts/
+remix-tests/artifacts/
+remix-tests/build-info/
+
+# Ignore Remix-specific files
+remix_accounts.sol
+remix_tests.sol
+
+# Ignore system files
+.prettierrc.json
